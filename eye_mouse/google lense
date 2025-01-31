@@ -1,0 +1,7 @@
+from googlelens import GoogleLens
+import os
+
+lens = GoogleLens()
+
+search_result = lens.search_by_file("/Users/macbook/Desktop/ignite/PROJECTS/eye_mouse/taken_screenshot.png")
+print(search_result)
